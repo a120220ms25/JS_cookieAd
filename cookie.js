@@ -16,7 +16,7 @@ function adgoto() {
   window.open("https://www.npac-weiwuying.org/programs/5e15d0eebe06470008182052", "blank");
 }
 
-cookie的增刪改查
+// cookie的增刪改查
 
 // /*select*/
 // console.log(document.cookie); //可以看到目前有哪些cookie
