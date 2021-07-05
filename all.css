@@ -31,3 +31,7 @@ max-height: 50vh;
   right:-0.1rem;
   top:-0.1rem;
 }
+.webConent{
+  width: 100vw;
+  height: 100vh;
+}
