@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+}
+/*內容區*/
+.main{
+  position: fixed;
+  width: 100%;
+  height: 100%
+}
+#myFull{
+  background-color: rgba(35,35,35,0.9);
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  z-index:999;
+}
+#myContent{
+position: relative;
+cursor: pointer;
+
+}
+#myContent img {
+max-width: 50vw;
+max-height: 50vh;
+}
+#myContent i{
+  position: absolute;
+  right:-0.1rem;
+  top:-0.1rem;
+}
