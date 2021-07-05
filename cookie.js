@@ -81,5 +81,5 @@ if (!checkAd) {
   end.setHours(24), end.setMinutes(59), end.setSeconds(59);
   document.cookie = "watchedAd=yes;expires=" + end.toUTCString();
 } else{
-  document.getElementById("adFull").remove();
+  document.getElementById("myFull").remove();
 }
